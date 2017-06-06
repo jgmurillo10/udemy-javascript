@@ -1,0 +1,12 @@
+Conceptual Aside
+Syntax parsers:
+A program that reads your codes and determines what it dows and if its grammar is valid
+
+
+Execution contexts:
+A wrapper to help manage the code that is running
+
+
+Lexical environments:
+Where something sits physically in the code you write
+(where is written and what's surrounding)
