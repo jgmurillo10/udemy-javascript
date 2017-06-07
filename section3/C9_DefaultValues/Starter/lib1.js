@@ -1,4 +1,4 @@
 (function () {
   "use strict";
-  console.log(libraryName);
+  var libraryName = "Lib 1";
 })();
