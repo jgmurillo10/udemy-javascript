@@ -16,3 +16,35 @@ console.log(a);
 
 var a = 'Hello World!';
 console.log(a);
+/*
+Incovation:
+Running a function
+foo()
+
+
+Every function creates a new execution context
+
+*/
+
+function b() {
+  console.log('called b');
+}
+
+function a() {
+  console.log('called a');
+  b();
+
+}
+a();
+
+/*
+execution stack
+b()
+a()
+Global execution context
+
+
+Every time a function is called, a new exection context
+is created, the this variable is created for that function
+the var in it.
+*/

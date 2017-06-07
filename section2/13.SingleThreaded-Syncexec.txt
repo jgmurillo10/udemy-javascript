@@ -1,0 +1,6 @@
+CONCEPTUAL ASIDE:
+SINGLE THREADED
+One command at a time
+
+SYNCHRONOUS EXECUTION
+And in order...
