@@ -46,5 +46,7 @@ Global execution context
 
 Every time a function is called, a new exection context
 is created, the this variable is created for that function
-the var in it.
+the var within it are set up during the creation phase.
+
+code executed line by line
 */
