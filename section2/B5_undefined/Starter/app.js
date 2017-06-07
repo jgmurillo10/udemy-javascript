@@ -1,12 +1,15 @@
 /**
 Conceptual Aside: JS and 'undefined'
 
+undefined: the var has not been set
+
+
 **/
-b();
+var a;
 console.log(a);
-
-var a = 'Hello World!';
-
-function b() {
-    console.log('Called b!');
+a = 'Hello World'
+if(a === undefined){
+  console.log('a is undefined!');
+}else {
+  console.log('a is defined!', a);
 }
