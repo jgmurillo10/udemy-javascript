@@ -1,0 +1,6 @@
+Operators
+a special function that is syntactically (written)
+differently
+
+Infix notations.
+the operator sits between the two params

@@ -1,0 +1,13 @@
+Types that exists in JS.
+
+Primitive Type:
+A type of data that represents a sigle value.
+That is, not an object
+
+six primitive types:
+1. undefined: the lack of existence
+2. null: lack of existence (you can set a variable to this)
+3. boolean
+4. number: Floating point number ( there's always some decimals ).
+5. String: a sequence of character 'hola' and "hola"
+6. Symbol: used in ES6
