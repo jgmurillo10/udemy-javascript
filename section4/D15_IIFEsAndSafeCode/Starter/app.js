@@ -1,31 +1,11 @@
 // IIFE
 var firstname = 'John';
 
-(function(name) {
-    
+(function(global,name) {
+
     var greeting = 'Hello';
     console.log(greeting + ' ' + name);
-    
-}(firstname)); // IIFE
 
+}(this,firstname)); // IIFE
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+console.log(greeting);
